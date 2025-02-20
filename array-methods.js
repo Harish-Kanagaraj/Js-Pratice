@@ -10,3 +10,10 @@ console.log(size);
 // Array to string
 let str=fruits.toString();
 console.log(str);
+
+// Array at()  
+let pos=fruits.at(2);
+let pos1 = fruits[2];
+console.log(pos);
+console.log(pos1);
+
