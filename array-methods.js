@@ -17,3 +17,7 @@ let pos1 = fruits[2];
 console.log(pos);
 console.log(pos1);
 
+// Array join()
+let add=fruits.join('+');
+console.log(add);
+
