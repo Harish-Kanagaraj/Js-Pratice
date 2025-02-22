@@ -21,3 +21,6 @@ console.log(pos1);
 let add=fruits.join('+');
 console.log(add);
 
+// pop remove in end
+let remove=fruits.pop();
+console.log(remove);
