@@ -24,3 +24,10 @@ console.log(add);
 // pop remove in end
 let remove=fruits.pop();
 console.log(remove);
+
+// push add in end
+let add1=fruits.push("Kiwi");
+console.log(add1);
+console.log(fruits);
+
+
