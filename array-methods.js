@@ -30,4 +30,11 @@ let add1=fruits.push("Kiwi");
 console.log(add1);
 console.log(fruits);
 
+// shift() remove in start
+let remove1=fruits.shift();
+console.log(remove1);
+console.log(fruits);
+
+
+
 
