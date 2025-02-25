@@ -35,6 +35,11 @@ let remove1=fruits.shift();
 console.log(remove1);
 console.log(fruits);
 
+// unshift() add in start
+let add2=fruits.unshift("Lemon");
+console.log(add2);
+console.log(fruits);
+
 
 
 
