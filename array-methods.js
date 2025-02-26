@@ -40,6 +40,11 @@ let add2=fruits.unshift("Lemon");
 console.log(add2);
 console.log(fruits);
 
+// shift() method removes the first array element and "shifts" all other elements to a lower index
+let change=fruits.shift();
+console.log(change);
+console.log(fruits);
+
 
 
 
