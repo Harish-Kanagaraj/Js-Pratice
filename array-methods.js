@@ -45,6 +45,12 @@ let change=fruits.shift();
 console.log(change);
 console.log(fruits);
 
+// Array Concat
+let arr=["snow"];
+let arr1=["ball"];
+let adding=arr.concat(arr1);
+console.log(adding);
+
 
 
 
