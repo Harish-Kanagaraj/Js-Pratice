@@ -51,6 +51,10 @@ let arr1=["ball"];
 let adding=arr.concat(arr1);
 console.log(adding);
 
+// Array concat with value
+let adding1=arr.concat("fall");
+console.log(adding1);
+
 
 
 
