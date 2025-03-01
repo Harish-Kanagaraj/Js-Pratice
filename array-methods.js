@@ -55,6 +55,11 @@ console.log(adding);
 let adding1=arr.concat("fall");
 console.log(adding1);
 
+// copyWithin()  Copy to index 2, all elements from index 0:
+// first Display the first 2 number and  second value show the index value
+let copy= fruits.copyWithin(2,2);
+console.log(copy);
+
 
 
 
