@@ -60,6 +60,11 @@ console.log(adding1);
 let copy= fruits.copyWithin(2,2);
 console.log(copy);
 
+// flat() -- creates a new array with sub-array elements
+let farr=[[1,2],[3,4],[5,6]];;
+let farr1=farr.flat();
+console.log(farr1);
+
 
 
 
