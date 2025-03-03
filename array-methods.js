@@ -65,6 +65,12 @@ let farr=[[1,2],[3,4],[5,6]];;
 let farr1=farr.flat();
 console.log(farr1);
 
+// splice Method  add 
+// 1 value where need to add 2nd how many element need to delete 3 rd new element to add
+console.log(fruits);
+fruits.splice(1,0,"Lemon");
+console.log(fruits);
+
 
 
 
