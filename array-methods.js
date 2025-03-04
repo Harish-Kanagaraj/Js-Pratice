@@ -71,6 +71,10 @@ console.log(fruits);
 fruits.splice(1,0,"Lemon");
 console.log(fruits);
 
+// using splice to remove data
+fruits.splice(0,1);
+console.log(fruits);
+
 
 
 
