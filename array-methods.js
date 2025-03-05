@@ -75,6 +75,11 @@ console.log(fruits);
 fruits.splice(0,1);
 console.log(fruits);
 
+// toSpliced() same as splice  new method creates a new array, keeping the original array unchanged
+const month=["jan","feb","Mar","Apr"];
+let spliced=month.toSpliced(0,1);
+console.log(spliced);
+
 
 
 
