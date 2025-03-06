@@ -80,6 +80,11 @@ const month=["jan","feb","Mar","Apr"];
 let spliced=month.toSpliced(0,1);
 console.log(spliced);
 
+// slice() 
+// slices out a piece of an array into a new array
+const months=["jan","feb","Mar","Apr"];
+let slice=months.slice(2);
+console.log(slice);
 
 
 
