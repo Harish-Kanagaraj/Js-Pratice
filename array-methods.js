@@ -86,5 +86,11 @@ const months=["jan","feb","Mar","Apr"];
 let slice=months.slice(2);
 console.log(slice);
 
+// Two arguments
+// elects elements from the start argument, and up to (but not including) the end argument
+const fruits1= ["Banana", "Orange", "Lemon", "Apple", "Mango"];
+const citrus = fruits1.slice(1, 3);
+console.log(citrus);
+
 
 
