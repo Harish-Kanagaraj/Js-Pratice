@@ -92,5 +92,12 @@ const fruits1= ["Banana", "Orange", "Lemon", "Apple", "Mango"];
 const citrus = fruits1.slice(1, 3);
 console.log(citrus);
 
+const numbers = [1, 2, 3, 4, 5];
+
+// Using map() to create a new array with doubled values
+const doubledNumbers = numbers.map(num => num * 2);
+
+console.log(doubledNumbers); 
+
 
 
