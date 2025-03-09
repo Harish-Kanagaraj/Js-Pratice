@@ -99,5 +99,10 @@ const doubledNumbers = numbers.map(num => num * 2);
 
 console.log(doubledNumbers); 
 
+//filter
+let arr = [1, 2, 3];
+let even = arr.filter(num => num % 2 === 0);
+console.log(even); 
+
 
 
