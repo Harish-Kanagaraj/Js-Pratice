@@ -10,3 +10,7 @@
 // includes()   -- check if an element is present
  let position2=fruits.includes("Apple");
  console.log(position2);
+
+ // Date
+ const d = new Date();
+ console.log(d.toLocaleString('en-IN', { timeZone: 'Asia/Kolkata' }));
