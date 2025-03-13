@@ -14,3 +14,8 @@
  // Date
  const d = new Date();
  console.log(d.toLocaleString('en-IN', { timeZone: 'Asia/Kolkata' }));
+
+ // find()
+ const array1 = [5, 12, 8, 130, 44];
+ const found = array1.find((element) => element > 10);
+ console.log(found);
