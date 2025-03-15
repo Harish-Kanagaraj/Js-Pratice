@@ -23,3 +23,9 @@
  // findIndex()
  const isLargeNumber = (element) => element > 13;
  console.log(array1.findIndex(isLargeNumber));
+
+ // for of  with an array
+ const number=[10,20,30,40,50];
+ for(let num of number){
+     console.log(num)
+ }
