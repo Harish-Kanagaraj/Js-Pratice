@@ -29,3 +29,9 @@
  for(let num of number){
      console.log(num)
  }
+
+ // for of with an string
+ const str="Hello";
+ for(let char of str){
+     console.log(char);
+ }
