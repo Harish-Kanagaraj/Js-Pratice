@@ -35,3 +35,9 @@
  for(let char of str){
      console.log(char);
  }
+
+ // for of with an set
+ const set = new Set([1,2,3,4]);
+ for(let value of set){
+     console.log(value);
+ }
