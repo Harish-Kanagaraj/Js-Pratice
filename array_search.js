@@ -41,3 +41,13 @@
  for(let value of set){
      console.log(value);
  }
+
+// for of with Map
+ const map=new Map([
+      ['name', 'Alice'],
+      ['age', 25],
+      ['city', 'New York']
+ ]);
+ for(let [key,value] of map){
+     console.log((key,value));
+ }
