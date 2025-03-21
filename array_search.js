@@ -51,3 +51,10 @@
  for(let [key,value] of map){
      console.log((key,value));
  }
+
+ // for in
+ const person = {
+   name: 'Alice',
+   age: 30,
+   city: 'New York'
+ };
