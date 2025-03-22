@@ -58,3 +58,10 @@
    age: 30,
    city: 'New York'
  };
+
+ // for in array
+ const color=['red' , 'yellow' , 'green'];
+ for(let index in color){
+     console.log(index);
+     console.log(color[index])
+ }
