@@ -73,3 +73,14 @@
  } else {
      console.log("Not Eligible for vote")
  }
+
+// Nested if
+ let score = 90;
+ if (score > 50) {
+     console.log("You Got Passed");
+     if (score > 80) {
+         console.log("you got A Grade")
+     }
+ } else {
+     console.log("you Failed")
+ }
