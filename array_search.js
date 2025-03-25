@@ -84,3 +84,8 @@
  } else {
      console.log("you Failed")
  }
+
+ // Ternary Operator
+ let age1 = 16;
+ let message = age1 >= 18 ? "Elegiable for vote" : "Not Eligible for vote";
+ console.log(message)
