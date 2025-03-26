@@ -89,3 +89,7 @@
  let age1 = 16;
  let message = age1 >= 18 ? "Elegiable for vote" : "Not Eligible for vote";
  console.log(message)
+
+ // Another Method
+ let isLoggedIn = false;
+ console.log(isLoggedIn === "true" ? "Welcome Back" : "Please Login");
