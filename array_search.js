@@ -109,3 +109,14 @@
      default:
          console.log("Invalid Day");
  }
+
+ // Logical Operators in Conditions
+ // AND 
+ 
+ let Logage = 25;
+ let hasID = true;
+ if (Logage >= 18 && hasID) {
+     console.log("Allowed to Enter");
+ } else {
+     console.log("Not Allowed");
+ }
