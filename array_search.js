@@ -120,3 +120,7 @@
  } else {
      console.log("Not Allowed");
  }
+ //OR
+ let isMember = false;
+ let hasDiscountcoupen = true;
+
