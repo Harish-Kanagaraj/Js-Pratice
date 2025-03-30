@@ -123,4 +123,10 @@
  //OR
  let isMember = false;
  let hasDiscountcoupen = true;
+ if (isMember || hasDiscountcoupen) {
+     console.log("You Get a Discount");
+ } else {
+     console.log("No Discount");
+ }
+
 
