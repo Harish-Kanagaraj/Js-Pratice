@@ -129,4 +129,16 @@
      console.log("No Discount");
  }
 
+ //1)Write an if-else statement that checks if a number is positive, negative, or zero.
+ 
+ let num = 2;
+ 
+ if (num > 0) {
+     console.log("The Number is Positive")
+ } else if (num < 0) {
+     console.log("The Number is Negative")
+ } else {
+     console.log("The Number is Zero")
+ }
+
 
