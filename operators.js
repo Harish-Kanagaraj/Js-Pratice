@@ -99,3 +99,8 @@ console.log("5" + 2);           // 52
 console.log(true + 2);          // 3
 console.log(false == 0);        // true
 console.log(null == undefined); //true
+
+ let speed = 100;
+ let speedmsg = speed > 80 ? "Overspeeding!" : "Safe driving";
+ console.log(speedmsg);
+
