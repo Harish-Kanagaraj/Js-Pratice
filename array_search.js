@@ -149,5 +149,8 @@
     console.log("Safe driving.");
  }
 
+ let speed = 100;
+ let speedmsg = speed > 80 ? "Overspeeding!" : "Safe driving";
+ console.log(speedmsg);
 
 
