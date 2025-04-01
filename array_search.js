@@ -141,4 +141,13 @@
      console.log("The Number is Zero")
  }
 
+ //2)Convert this if-else to a ternary operator:
+  let speed = 100;
+  if (speed > 80) {
+   console.log("Overspeeding!");
+} else {
+    console.log("Safe driving.");
+ }
+
+
 
