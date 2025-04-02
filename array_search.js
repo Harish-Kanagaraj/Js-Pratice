@@ -153,4 +153,20 @@
  let speedmsg = speed > 80 ? "Overspeeding!" : "Safe driving";
  console.log(speedmsg);
 
+ // 3)Write a switch statement for traffic lights (red, yellow, green).
+ 
+ let light = 2;
+ switch (light) {
+     case 1:
+         console.log("Red");
+         break;
+     case 2:
+         console.log("Yellow");
+         break;
+     case 3:
+         console.log("Green");
+         break;
+     default:
+         console.log("Lights are Turnes Off")
+}
 
