@@ -169,4 +169,13 @@
      default:
          console.log("Lights are Turnes Off")
 }
-
+// 4)Use && or || to check if a user can access a website (age >= 18 OR has parent permission).
+ // AND
+ 
+ let userage = 20;
+ let hasParentPemission = true;
+ if (userage >= 18 && hasParentPemission) {
+     console.log("Access a Website");
+ } else {
+     console.log("Not able to access an Website")
+}
