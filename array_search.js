@@ -179,3 +179,14 @@
  } else {
      console.log("Not able to access an Website")
 }
+
+// OR
+ 
+ let userage1 = 15;
+ let hasParentPemission1 = false;
+ if (userage1 >= 18 || hasParentPemission1) {
+     console.log("Access a Website")
+ } else {
+     console.log("Not able to access an Website")
+ }
+
