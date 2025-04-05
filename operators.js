@@ -104,3 +104,6 @@ console.log(null == undefined); //true
  let speedmsg = speed > 80 ? "Overspeeding!" : "Safe driving";
  console.log(speedmsg);
 
+ // variable
+ var str="Name";
+ console.log(str);
