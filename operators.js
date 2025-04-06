@@ -107,3 +107,10 @@ console.log(null == undefined); //true
  // variable
  var str="Name";
  console.log(str);
+
+ // type of operator
+ let str1="Name";
+ console.log(typeof(str1))
+ 
+ let str2=10;
+ console.log(typeof(str2))
