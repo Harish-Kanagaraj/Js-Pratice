@@ -114,3 +114,8 @@ console.log(null == undefined); //true
  
  let str2=10;
  console.log(typeof(str2))
+
+ //type conversion
+ const str3="123";
+ let num=Number(str3)
+ console.log(typeof(num));
