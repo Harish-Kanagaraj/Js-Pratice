@@ -119,3 +119,16 @@ console.log(null == undefined); //true
  const str3="123";
  let num=Number(str3)
  console.log(typeof(num));
+
+
+ // Predict the output of this:
+ 
+ // 1)22  -->1st string-->2nd number
+ // 2)0   -->   "           "
+ // 3)5   --> false=0-->true=1
+ // 4)2   --> arithmetic operation JavaScript will attempt to convert the string to a number.
+ 
+ console.log("2" + 2);
+ console.log("2" - 2);
+ console.log(5 + false);
+ console.log(10 / "5");
