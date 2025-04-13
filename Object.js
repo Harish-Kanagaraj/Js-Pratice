@@ -11,3 +11,11 @@ let users={
  alert(users[key]);
 let key1="name";
  alert( users.key1 )
+
+function makeUser(name, age) {
+   return {
+     name: name,
+     age: age,
+     // ...other properties
+   };
+}
