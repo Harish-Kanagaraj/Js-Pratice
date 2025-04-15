@@ -19,3 +19,8 @@ function makeUser(name, age) {
      // ...other properties
    };
 }
+let user1 = makeUser("John", 30);
+ alert(user1.name); 
+ 
+ // for in
+ alert("age" in users);
