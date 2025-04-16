@@ -24,3 +24,10 @@ let user1 = makeUser("John", 30);
  
  // for in
  alert("age" in users);
+
+let object={
+     for:1,
+     let:2,
+     return:3,
+ }
+ alert(object.for+object.let+object.return);
