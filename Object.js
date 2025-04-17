@@ -31,3 +31,9 @@ let object={
      return:3,
  }
  alert(object.for+object.let+object.return);
+
+let obj={
+     0:"test",
+ };
+ alert(obj["0"]);
+ alert(obj[0]);
