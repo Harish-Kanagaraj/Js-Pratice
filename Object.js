@@ -37,3 +37,14 @@ let obj={
  };
  alert(obj["0"]);
  alert(obj[0]);
+
+let user2 = {
+   name: "John",
+   age: 30
+ };
+ 
+ user2.sayHi = function() {
+   alert("Hello!");
+ };
+
+
