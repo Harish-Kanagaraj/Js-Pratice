@@ -63,4 +63,9 @@ const person = {
 document.getElementById("demo").innerHTML =
 person.firstName + " is " + person.age + " years old.";
 
+let key = prompt("What do you want to know about the user?", "name");
+ alert(users[key]);
+let key1="name";
+ alert( users.key1 )
+
 
