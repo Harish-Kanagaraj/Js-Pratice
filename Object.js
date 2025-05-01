@@ -110,3 +110,10 @@ function makeUser(name, age) {
     console.log("Absent")
     }
  }
+
+function makeUser(name, age) {
+   return {
+     name: name,
+     age: age,
+     // ...other properties
+   };
