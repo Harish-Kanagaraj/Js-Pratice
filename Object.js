@@ -123,3 +123,8 @@ function makeUser(name, age) {
  
  // for in
  alert("age" in users);
+
+ let user={};
+ user["likes birds"]=true;
+ alert(user["likes birds"]);
+ delete user["likes birds"];
