@@ -139,3 +139,8 @@ function makeUser(name, age) {
      };
  };
  counter(5)
+
+ let user={};
+ user["likes birds"]=true;
+ alert(user["likes birds"]);
+ delete user["likes birds"];
