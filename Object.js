@@ -158,3 +158,10 @@ let key1="name";
     return this.firstName + " " + this.lastName;
   }
 };
+
+ const person = {
+  firstName: "John",
+  lastName: "Doe",
+  age: 50,
+  eyeColor: "blue"
+};
