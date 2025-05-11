@@ -185,3 +185,7 @@ let key1="name";
     console.log("Absent")
     }
     }
+  let user={};
+ user["likes birds"]=true;
+ alert(user["likes birds"]);
+ delete user["likes birds"];
