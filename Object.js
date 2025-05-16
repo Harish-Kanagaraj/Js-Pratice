@@ -234,4 +234,9 @@ const PrivateRoute = ({ component: Component, ...rest }) => (
 );
 
 export default PrivateRoute;
+
+let pos=fruits.at(2);
+let pos1 = fruits[2];
+console.log(pos);
+console.log(pos1);
  
