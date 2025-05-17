@@ -239,4 +239,13 @@ let pos=fruits.at(2);
 let pos1 = fruits[2];
 console.log(pos);
 console.log(pos1);
+
+let array=[10,25,35,100];
+let sum=0;
+for(i=0;i<array.length;i++){
+    sum+=array[i];
+}
+console.log(sum);
+// Find highest number
+console.log(Math.max(...array));
  
