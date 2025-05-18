@@ -104,5 +104,7 @@ let arr = [1, 2, 3];
 let even = arr.filter(num => num % 2 === 0);
 console.log(even); 
 
-
+const fruits=["Banana", "Orange", "Apple", "Mango"];
+let fruit=fruits[fruits.length - 1];
+console.log(fruit);
 
