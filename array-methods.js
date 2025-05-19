@@ -107,4 +107,9 @@ console.log(even);
 const fruits=["Banana", "Orange", "Apple", "Mango"];
 let fruit=fruits[fruits.length - 1];
 console.log(fruit);
+let  arr=[10,-1,-5,-20,50,-15,20];
 
+for(let i=0;i<arr.length;i++){
+    if(arr[i]<=0){
+        console.log(arr[i]);
+    }
