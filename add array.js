@@ -6,3 +6,7 @@ for(i=0;i<array.length;i++){
 console.log(sum);
 // Find highest number
 console.log(Math.max(...array));
+
+const fruits=["Banana", "Orange", "Apple", "Mango"];
+let fruit=fruits[fruits.length - 1];
+console.log(fruit);
