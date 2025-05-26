@@ -261,3 +261,15 @@ console.log(Math.max(...array));
  const myFather = new Person("John", "Doe", 50, "blue");
  document.getElementById("demo").innerHTML =
  "My father is " + myFather.age + "."; 
+fetch('https://jsonplaceholder.typicode.com/todos',{
+     method:'POST',
+     headers:{'content-type':'application/json'},
+     body:JSON.stringify({
+       id:1,
+       title:"Lourem",
+       userId:11,
+       completed:false
+       })
+     })
+     .then(response=>response.json())
+     .then(json=>console.log(json))
