@@ -33,3 +33,9 @@ console.log(fruit);
      });
    })
    .catch(error => console.error('Error fetching data:', error));
+let array=[10,25,35,100];
+let sum=0;
+for(i=0;i<array.length;i++){
+    sum+=array[i];
+}
+console.log(sum);
