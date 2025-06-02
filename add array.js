@@ -49,3 +49,11 @@ console.log(sum);
 const fruits=["Banana", "Orange", "Apple", "Mango"];
 let fruit=fruits[fruits.length - 1];
 console.log(fruit);
+
+fetch('https://jsonplaceholder.typicode.com/todos')
+   .then(response => response.json())
+   .then(json => {
+     json.forEach(todo => {
+       document.write(`<p>Title: ${todo.title} </p>`);
+     });
+   })
