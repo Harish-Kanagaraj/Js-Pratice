@@ -287,3 +287,10 @@ let key = prompt("What do you want to know about the user?", "name");
  alert(users[key]);
 let key1="name";
  alert( users.key1 )
+
+let object={
+     for:1,
+     let:2,
+     return:3,
+ }
+ alert(object.for+object.let+object.return);
