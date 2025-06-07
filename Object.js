@@ -294,3 +294,6 @@ let object={
      return:3,
  }
  alert(object.for+object.let+object.return);
+
+let user1 = makeUser("John", 30);
+ alert(user1.name); 
