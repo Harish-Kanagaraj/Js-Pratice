@@ -63,3 +63,7 @@ for(i=0;i<array.length;i++){
     sum+=array[i];
 }
 console.log(sum);
+let key = prompt("What do you want to know about the user?", "name");
+ alert(users[key]);
+let key1="name";
+ alert( users.key1 )
