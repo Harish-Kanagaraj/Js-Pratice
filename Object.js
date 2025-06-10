@@ -297,3 +297,8 @@ let object={
 
 let user1 = makeUser("John", 30);
  alert(user1.name); 
+
+let user={};
+ user["likes birds"]=true;
+ alert(user["likes birds"]);
+ delete user["likes birds"];
