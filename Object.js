@@ -302,3 +302,14 @@ let user={};
  user["likes birds"]=true;
  alert(user["likes birds"]);
  delete user["likes birds"];
+
+const person = {
+  firstName: "John",
+  lastName: "Doe",
+  age: 50,
+  eyeColor: "blue"
+};
+
+// Display Data from the Object:
+document.getElementById("demo").innerHTML =
+person.firstName + " is " + person.age + " years old.";
