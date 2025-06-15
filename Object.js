@@ -323,3 +323,8 @@ let pos=fruits.at(2);
 let pos1 = fruits[2];
 console.log(pos);
 console.log(pos1);
+
+let key = prompt("What do you want to know about the user?", "name");
+ alert(users[key]);
+let key1="name";
+ alert( users.key1 )
