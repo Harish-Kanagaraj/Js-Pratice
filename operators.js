@@ -132,3 +132,7 @@ console.log(null == undefined); //true
  console.log("2" - 2);
  console.log(5 + false);
  console.log(10 / "5");
+
+ let a = [1, 2, 3, 4, 5];
+ let b= a.reverse();
+ console.log(b);
